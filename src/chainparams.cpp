@@ -115,7 +115,7 @@ public:
         pchMessageStart[1] = 0xc7;
         pchMessageStart[2] = 0xb1;
         pchMessageStart[3] = 0xd4;
-        nDefaultPort = 17780;
+        nDefaultPort = 17790;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1529470042, 3084530133, 0x1e0ffff0, 1, 50 * COIN);
@@ -124,11 +124,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("7f275275bd4c7a2ff4fdc6d549deab5af5132ea6404df8a0401ccd534248273a"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("starshipcoin.com:17780", true);
-        vSeeds.emplace_back("sudotrade.com:17780", true);
-        vSeeds.emplace_back("giggahost.com:17780", true);
-        vSeeds.emplace_back("khryptorgraphics.com:17880", true);
-        vSeeds.emplace_back("teamproxima.com:17780", false);
+        vSeeds.emplace_back("starshipcoin.com:17790", true);
+        vSeeds.emplace_back("sudotrade.com:17790", true);
+        vSeeds.emplace_back("giggahost.com:17790", true);
+        vSeeds.emplace_back("khryptorgraphics.com:17790", true);
+        vSeeds.emplace_back("teamproxima.com:17790", false);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,35);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -218,7 +218,7 @@ public:
         pchMessageStart[1] = 0xd2;
         pchMessageStart[2] = 0xc8;
         pchMessageStart[3] = 0xf1;
-        nDefaultPort = 17785;
+        nDefaultPort = 17798;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1529470042, 3084530133, 0x1e0ffff0, 1, 50 * COIN);
@@ -229,9 +229,9 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("starshipcoin.com:17780", true);
-        vSeeds.emplace_back("sudotrade.com:17780", true);
-        vSeeds.emplace_back("khyptorgraphics.com:17780", true);
+        vSeeds.emplace_back("starshipcoin.com:17798", true);
+        vSeeds.emplace_back("sudotrade.com:17798", true);
+        vSeeds.emplace_back("khyptorgraphics.com:17798", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
@@ -319,7 +319,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             {
-///                {0, uint256S("0")},
+                {0, uint256S("0")},
             }
         };
 
