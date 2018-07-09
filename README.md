@@ -2,8 +2,11 @@ Starshipscrypt Core integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/starshipscrypt-project/starshipscrypt.svg?branch=master)](https://travis-ci.org/starshipscrypt-project/starshipscrypt)
+https://starshipcoin.com
 
-http://starshipcoin.com:8080
+Mining Pool 
+
+http://starshipcoin.com:8090
 
 What is Starshipscrypt?
 ----------------
