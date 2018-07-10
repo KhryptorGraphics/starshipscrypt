@@ -8,6 +8,11 @@ Mining Pool
 
 http://starshipcoin.com:8090
 
+SLACK
+
+https://join.slack.com/t/starshipcoin-group/shared_invite/enQtMzkzOTIyODk5ODA4LWUxYTU1OTliNDEwZDM5OWIzZDA2NTViZTMzOGNmMDEzNmM5YzUyYWMwNTgxMGFkZjRiZjkwMzY3MGQ2NzkwZjg
+
+
 What is Starshipscrypt?
 ----------------
 
