@@ -6,7 +6,7 @@ https://starshipcoin.com
 
 Mining Pool 
 
-http://starshipcoin.com:8090
+http://giggahash.com:8090
 
 SLACK
 
